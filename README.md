@@ -14,3 +14,38 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+# Vue3 Sample
+
+## Tech Stack
+- [x] * Vue3 
+- [x] * Vite
+- [ ] * VueRouter
+- [x] * Pinia
+- [ ] * Naive UI
+- [ ] * Tailwind
+- [ ] * Cypress
+- [ ] * Molcha
+
+## SDK
+* [Amplify SDK](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/)
+
+### service
+
+1. API(REST)
+2. Authentication
+3. Storage
+
+## install
+
+
+created project
+
+```npm
+npm init vite@latest
+```
+
+pinia
+``` npm
+npm install pinia
+```

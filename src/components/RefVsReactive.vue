@@ -20,6 +20,5 @@
     male: "male",
     age: 231
   };
-  console.log(Ashe)
   // 解构
 </script>

@@ -10,8 +10,7 @@
   import { userStep } from '../store/step'
 
   //--------------------------------------
-  const { step , text } = storeToRefs(userStep())
-  const actionStep = userStep();
+    const actionStep = userStep();
   
   function addPiniaClick() {
     actionStep.nextStep()

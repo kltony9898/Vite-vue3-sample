@@ -10,7 +10,7 @@ export const userStep = defineStore('steps', {
     // 取得state內特定結果
     chineseTranslate(state):string {
       return state.chSteps[state.step - 1]
-    }
+    },
   },
   actions: {
     // 更改state內值

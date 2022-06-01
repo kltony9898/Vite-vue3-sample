@@ -8,14 +8,14 @@
 <script lang="ts" setup>
 // import { defineProps } from 'vue'
 const props = defineProps<{
-  name?: String
-  num?: String
-  beChoose: Boolean
+  name?: string
+  num?: number
+  beChoose: boolean
 }>()
 
-const emit = defineEmits<{
+const emit = defineEmits(
   ["onClose"]
-}>()
+)
 </script>
 <style>
   .tag {

@@ -3,11 +3,12 @@ import HelloWorld from './components/HelloWorld.vue'
 import AnotherCp from './components/AnotherCp.vue'
 import NewStep from './components/NewStep.vue'
 import Tag from './components/Tag.vue'
+import RefVsReactive from './components/RefVsReactive.vue'
 import { userStep } from './store/step'
 
 const stepsName = userStep().chSteps; 
 const actionStep = userStep();
-const CloseTag = index => {
+const CloseTag = (index:number) => {
   actionStep.removeStep(index);    
 }
 </script>
@@ -27,6 +28,7 @@ const CloseTag = index => {
       :beChoose="userStep().step - 1 === index"
     />
   </div>
+  <RefVsReactive />
 </template>
 
 <style>
